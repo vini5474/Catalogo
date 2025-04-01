@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+    gap: 10px;
+    background-color: rgb(77, 76, 78);
+    padding: 10px;
+    color: rgb(220, 205, 235);
+    height: 100px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(39, 207, 219);
+}

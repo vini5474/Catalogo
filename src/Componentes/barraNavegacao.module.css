@@ -1,0 +1,18 @@
+.container {
+    background-color: rgb(77, 76, 78);
+    padding: 10px;
+}
+
+.container ul {
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li {
+    color: rgb(39, 207, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
