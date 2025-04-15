@@ -6,10 +6,12 @@
     border-radius: 10px;
     transition: transform 0.03 ease;
     margin-left: 30px;
-    background-color: rgb(39, 207, 219);
+    background-color: #141414;
     align-items: center;
     justify-items: center;
     font-size: 15px;
+    color: rgb(39, 207, 219);
+    border: 1px solid rgb(39, 207, 219);
 }
 
 button {
@@ -30,6 +32,6 @@ button:hover {
 }
 
 img {
-    width: 190px;
-    height: 150px;
+    width: 250px;
+    height: 290px;
 }

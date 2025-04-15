@@ -1,16 +1,10 @@
-import { Cabecalho } from "./Componentes/cabecalho";
-import {BarraNavegacao} from "./Componentes/barraNavegacao";
-import { Conteudo } from "./Componentes/conteudo";
-import { Footer } from "./Componentes/footer";
+import { Inicial } from "./Paginas/inicial"
 
 function App() {
 
   return (
     <>
-      <Cabecalho/>
-      <BarraNavegacao/>
-      <Conteudo/>
-      <Footer/>
+      <Inicial/>
     </>
     
   )
