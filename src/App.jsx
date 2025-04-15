@@ -1,12 +1,14 @@
 import { Inicial } from "./Paginas/inicial"
+import React from "react"
+import { BrowserRouter } from "react-router-dom"
+import { Rotas } from "./Rotas/rotas"
 
 function App() {
 
   return (
-    <>
-      <Inicial/>
-    </>
-    
+    <BrowserRouter>
+      <Rotas/>
+    </BrowserRouter>
   )
 }
 

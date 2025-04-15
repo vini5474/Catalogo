@@ -1,15 +1,17 @@
 import { BarraNavegacao } from "../Componentes/barraNavegacao";
 import { Cabecalho } from "../Componentes/cabecalho";
-import { Conteudo } from "../Componentes/conteudo";
+
 import { Footer } from "../Componentes/footer";
+import { Outlet } from "react-router-dom";
 
 export function Inicial() {
     return(
         <>
             <Cabecalho/>
             <BarraNavegacao/>
-            <Conteudo/>
+            <Outlet/>
             <Footer/>
+            
         </>
     )
 }
