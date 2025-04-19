@@ -3,7 +3,6 @@
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
     transition: transform 0.03 ease;
     background-color: #141414;
     align-items: center;
@@ -13,7 +12,15 @@
     color: rgb(39, 207, 219);
 }
 
-.cards {
+.sectionCards {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card {
     width: 420px;
     height: 400px;
     background-color: #141414;
