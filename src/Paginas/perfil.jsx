@@ -19,6 +19,18 @@ export function Perfil() {
                     <FaRegUserCircle className={estilos.user} />
                     <h1>Usuário 3</h1>
                 </div>
+                <div className={estilos.card}>
+                    <FaRegUserCircle className={estilos.user} />
+                    <h1>Usuário 4</h1>
+                </div>
+                <div className={estilos.card}>
+                    <FaRegUserCircle className={estilos.user} />
+                    <h1>Usuário 5</h1>
+                </div>
+                <div className={estilos.card}>
+                    <CiCirclePlus className={estilos.user} />
+                    <h1>Novo usuário</h1>
+                </div>
             </div>
         </div>
     )

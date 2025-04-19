@@ -33,6 +33,11 @@
     gap: 1.5rem;
 }
 
+.card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
 .user {
     font-size: 150px;
     color: rgb(39, 207, 219); 
