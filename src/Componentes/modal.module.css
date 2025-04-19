@@ -43,7 +43,7 @@
 }
 
 .modalContainer button:hover {
-    color: rgb(39, 207, 219);
+    box-shadow: 0 4px 10px rgb(39, 207, 219);
 }
 
 @keyframes fadeIn {
