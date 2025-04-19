@@ -6,7 +6,6 @@ export function Card({movie, onOpenModal}) {
             <h3>{movie.title}</h3>
             <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} onClick={() => onOpenModal(movie)}/>
             <p>{movie.overview}</p>
-            <button>Ver detalhes</button>
         </div>
     )
 }

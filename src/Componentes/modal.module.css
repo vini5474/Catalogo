@@ -1,3 +1,58 @@
-.modalback {
+/* modal.module.css */
+.bak {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContainer {
+    background-color: #141414;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    color: rgb(39, 207, 219);
+    animation: fadeIn 0.3s ease;
+}
+
+.imgDetalhes {
+    width: 100%;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.modalContainer button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(39, 207, 219);
+    transition: color 0.2s;
+}
+
+.modalContainer button:hover {
+    color: rgb(39, 207, 219);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
