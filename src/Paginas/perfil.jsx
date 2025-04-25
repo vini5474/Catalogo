@@ -5,7 +5,7 @@ import { CiCirclePlus } from "react-icons/ci";
 export function Perfil() {
     return(
         <div className={estilos.container}>
-            <h2>Perfil</h2>
+            <h1>Perfils</h1>
             <div className={estilos.sectionCards}>
                 <div className={estilos.card}>
                     <FaRegUserCircle className={estilos.user} />

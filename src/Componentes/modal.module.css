@@ -22,6 +22,7 @@
     position: relative;
     color: rgb(39, 207, 219);
     animation: fadeIn 0.3s ease;
+    border: 3px solid rgb(39, 207, 219);
 }
 
 .imgDetalhes {

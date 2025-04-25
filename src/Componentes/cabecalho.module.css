@@ -1,9 +1,8 @@
 .container {
     text-align: center;
     gap: 10px;
-    background-color: rgb(77, 76, 78);
+    background-color: #272424;
     padding: 10px;
-    color: rgb(220, 205, 235);
     height: 100px;
 }
 
