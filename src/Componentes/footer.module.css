@@ -2,10 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     background-color: #272424;
     color: rgb(39, 207, 219);
-    padding: 10px;
-    height: 100px;
+    padding: 15px;
+    height: 176px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
