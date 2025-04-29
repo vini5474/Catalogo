@@ -12,7 +12,7 @@ export function Favorito() {
     const [selectedMovie, setSelectedMovie] = useState()
 
     useEffect(() => {
-        axios.get(`${API_URL}/search/movie?api_key=${API_KEY}&query=deadpool&english=en`).then(response=>{
+        axios.get(`${API_URL}/search/movie?api_key=${API_KEY}&query=the-batman&english=en`).then(response=>{
             console.log(response.data.results)
             setMoveis(response.data.results)
         })

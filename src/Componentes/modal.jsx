@@ -7,7 +7,7 @@ export function Modal({movie, onClose}) {
     console.log("Modal renderizada")
     console.log(movie)
     return(
-        <div className={estilo.bak}>
+        <div className={estilo.modal}>
             <div className={estilo.modalContainer}>
                 <h2>{movie.title}</h2>
                 <button onClick={onClose}>X</button>
