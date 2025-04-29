@@ -2,17 +2,17 @@ import axios from "axios";
 import React, {useEffect, useState} from "react";
 import {Card} from './card';
 import { Modal } from "./modal";
-import estilos from  './lista.module.css';
+import estilos from  './favorito.module.css';
 
 const API_URL = 'https://api.themoviedb.org/3'
 const API_KEY = 'af26cce282aecf5c6cc39a264f29d0a7'
 
-export function Lista() {
+export function Favorito() {
     const [movies, setMoveis] = useState([])
     const [selectedMovie, setSelectedMovie] = useState()
 
     useEffect(() => {
-        axios.get(`${API_URL}/movie/now_playing?api_key=${API_KEY}&language=pt-BR&region=BR`).then(response=>{
+        axios.get(`${API_URL}/search/movie?api_key=${API_KEY}&query=ironman&english=en-BR`).then(response=>{
             console.log(response.data.results)
             setMoveis(response.data.results)
         })
@@ -20,7 +20,7 @@ export function Lista() {
             console.log("Erro", error)
         })
     }, [])
-    /*get(`${API_URL}/search/movie?api_key=${API_key}&query=shreklanguage=pt-BR`)*/
+    
     const handleOpenModal = (movie) => {
         setSelectedMovie(movie)
     }
